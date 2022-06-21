@@ -1,0 +1,8 @@
+.product-card {
+    width: 10em;
+}
+
+.product-description {
+    display: flex;
+    justify-content: space-between;
+}

@@ -8,7 +8,7 @@ function NavBar(props) {
 				<div className='top-nav'>
                     <h1>
                         <Link to='/' className='logo'>
-                            Clothing.
+                            Blouson .
                         </Link>
                     </h1>
                     <ul className='top-nav-items'>
