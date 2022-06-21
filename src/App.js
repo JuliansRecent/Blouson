@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import NavBar from './Components/NavBar/NavBar';
+import WhatsHot from './Components/WhatsHot/WhatsHot';
 import Product from './Components/Product/Product';
+import SelectClothesByGender from './Components/SelectClothesByGender/SelectClothesByGender';
 
 const useFakeStoreAPI = () => {
   const [products, setProducts] = useState([]);
@@ -26,12 +28,14 @@ function App() {
     
 
   return (
-    <div>
+    <div className='app'>
       <header>
         <NavBar />
       </header>
       <main>
-        <Product product={products}/>
+        <WhatsHot />
+        <SelectClothesByGender />
+
       </main>
     </div>
   );

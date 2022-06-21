@@ -1,0 +1,37 @@
+.whats-hot {
+    width: 98%;
+    height: 40vh;
+    background-image: url('../Assets/beach-background.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+
+.whats-hot-inner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.whats-hot-button {
+    background-color: black;
+    font-size: 1.5em;
+    color: white;
+    padding: 1em;
+    font-weight: 900;
+}
+
+.whats-hot-button:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    .whats-hot {
+        width: 98%;
+        height: 30vh;
+        margin: 1%;
+        }
+}
