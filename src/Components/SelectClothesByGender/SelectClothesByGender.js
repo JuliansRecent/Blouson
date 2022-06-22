@@ -1,14 +1,15 @@
 import './SelectClothesByGender.css'
+import {Link} from 'react-router-dom'
 
 function SelectClothesByGender(props) {
     return (
 			<div className='mens-and-womens-container'>
 				<div className='mens-image-container'>
-					<button className='shop-mens'>Shop Men's</button>
+					<Link to='/shopmens'><button className='shop-mens'>Shop Men's</button></Link>
 				</div>
 
 				<div className='womens-image-container'>
-					<button className='shop-womens'>Shop Women's</button>
+					<Link to='/shopwomens'><button className='shop-womens'>Shop Women's</button></Link>
 				</div>
 			</div>
 		);

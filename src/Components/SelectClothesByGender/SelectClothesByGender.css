@@ -1,6 +1,11 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .mens-and-womens-container {
     width: 98%;
-    height: 60vh;
+    height: 65vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -22,7 +27,8 @@
     font-size: 1.5em;
     color: white;
     padding: 1em;
-    cursor: pointer
+    cursor: pointer;
+    margin-top: 20%;
 }
 
 .womens-image-container {
@@ -40,6 +46,7 @@
     color: white;
     padding: 1em;
     cursor: pointer;
+    margin-top: 20%;
 }
 
 @media (max-width: 500px) {

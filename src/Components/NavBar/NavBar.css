@@ -55,6 +55,11 @@ nav {
     cursor: pointer;
 }
 
+.categories {
+    text-decoration: none;
+    color: rgb(66, 65, 65);
+}
+
 .categories:hover {
     text-decoration: underline;
     cursor: pointer;
