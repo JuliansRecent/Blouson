@@ -13,8 +13,8 @@ function Product({product}) {
                 <div className="product-description">
                     <span className='price'>{`$${product.price}`}</span>
                     <div className='icon-container'>
-                        <span className='heart-icon'><img src={heartIcon} alt="" /></span>
-                        <span className='cart-icon'><img src={cartIcon} alt="" /></span>
+                        <button className='heart-icon'><img src={heartIcon} alt="" /></button>
+                        <button className='cart-icon'><img src={cartIcon} alt="" /></button>
                     </div>
                 </div>
             </div>
