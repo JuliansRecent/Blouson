@@ -28,6 +28,8 @@
     cursor: pointer;
 }
 
+
+
 @media (max-width: 500px) {
     .whats-hot {
         width: 98%;

@@ -1,4 +1,6 @@
 import './Product.css'
+import heartIcon from '../Assets/heart.png'
+import cartIcon from '../Assets/shopping-bag.png'
 
 function Product({product}) {
 
@@ -8,8 +10,11 @@ function Product({product}) {
             <img src={`${product.image}`} alt="" />
             <div className='product-title'>{product.title}</div>
             <div className="product-description">
-                <span>{`$${product.price}`}</span>
-                <span>heart icon</span>
+                <span className='price'>{`$${product.price}`}</span>
+                <div className='icon-container'>
+                    <span className='heart-icon'><img src={heartIcon} alt="" /></span>
+                    <span className='cart-icon'><img src={cartIcon} alt="" /></span>
+                </div>
             </div>
         </li>
     );
