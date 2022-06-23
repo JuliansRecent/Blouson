@@ -1,14 +1,15 @@
 body {
-     min-height: 100%;
-     overflow-x: hidden;
-     overflow-y: scroll;
+   min-height: 100%;
+   overflow-x: hidden;
+   overflow-y: scroll;
+   font-family: 'Vollkorn', serif;
  }
 
-
-
  @media (min-width: 1000px) {
-     body {
-         margin-right: 200px;
-         margin-left: 200px;
-     }
+
+    body {
+    display: block;
+    margin-right: 200px;
+    margin-left: 200px;
+    }
  }

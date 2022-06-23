@@ -7,8 +7,14 @@ import Dashboard from './Dashboard/Dashboard';
 import ShopWomens from './Components/ShopWomens/ShopWomens';
 import ShopMens from './Components/ShopMens/ShopMens';
 import ShopJewelry from './Components/ShopJewelry/ShopJewelry'
+import Cart from './Components/Cart/Cart';
+import Footer from './Components/Footer/Footer';
+import ShopElectronics from './Components/ShopElectronics/ShopElectronics';
+
 
 function App() {
+	const [cart, setCart] = useState([]);
+
 	return (
 		<div className='app'>
 			<header>
@@ -16,15 +22,37 @@ function App() {
 			</header>
 			<main>
 				<Routes>
-					<Route path='/whatshot' element={<WhatsHotDisplay />} />
+					<Route
+						path='/shoppingbag'
+						element={<Cart cart={cart} setCart={setCart} />}
+					/>
+					<Route
+						path='/whatshot'
+						element={<WhatsHotDisplay cart={cart} setCart={setCart} />}
+					/>
 					<Route path='/:category' element={null} />
 					<Route path='/' element={<Dashboard />} />
-					<Route path='/shopwomens' element={<ShopWomens />} />
-					<Route path='/shopmens' element={<ShopMens />} />
-					<Route path='/shopjewelry' element={<ShopJewelry />} />
+					<Route
+						path='/shopwomens'
+						element={<ShopWomens cart={cart} setCart={setCart} />}
+					/>
+					<Route
+						path='/shopmens'
+						element={<ShopMens cart={cart} setCart={setCart} />}
+					/>
+					<Route
+						path='/shopjewelry'
+						element={<ShopJewelry cart={cart} setCart={setCart} />}
+					/>
+					<Route
+						path='/shopelectronics'
+						element={<ShopElectronics cart={cart} setCart={setCart} />}
+					/>
 				</Routes>
 			</main>
-			<footer></footer>
+			<footer>
+				<Footer />
+			</footer>
 		</div>
 	);
 }

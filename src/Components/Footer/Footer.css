@@ -1,0 +1,15 @@
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: black;
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+    opacity: 80%;
+    margin: 0% 2%;
+    margin-bottom: -3%;
+}

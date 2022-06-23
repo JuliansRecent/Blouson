@@ -6,6 +6,8 @@
     background-color: rgb(247, 245, 243);
     padding: 1em;
     justify-content: space-between;
+    font-family: 'Vollkorn', serif;
+    font-size: 1.2rem;
 }
 
 button {

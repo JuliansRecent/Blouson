@@ -28,7 +28,8 @@ img {
     color: white;
     padding: 1em;
     cursor: pointer;
-    margin-top: 20%;
+    margin-top: 25%;
+    font-family: 'Merriweather', serif;
 }
 
 .womens-image-container {
@@ -47,6 +48,7 @@ img {
     padding: 1em;
     cursor: pointer;
     margin-top: 20%;
+    font-family: 'Merriweather', serif;
 }
 
 @media (max-width: 500px) {

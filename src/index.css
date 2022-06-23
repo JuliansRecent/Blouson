@@ -5,7 +5,7 @@
 }
 
 html {
-  height: 1500px;
+  height: 100%;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height:2000px;
+  height: 100%;
 }
 
 code {

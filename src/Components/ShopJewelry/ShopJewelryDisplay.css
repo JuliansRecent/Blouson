@@ -1,7 +1,7 @@
-.whats-hot {
+.jewelry-section {
     width: 98%;
-    height: 50vh;
-    background-image: url('../Assets/beach-background.jpg');
+    height: 35vh;
+    background-image: url('../Assets/jewelry-cover-image.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -9,23 +9,23 @@
     margin: 1%;
 }
 
-.whats-hot-inner-box {
+.jewelry-inner-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.whats-hot-button {
+.shop-jewelry-button {
     background-color: black;
     font-size: 1.5em;
     color: white;
     padding: 1em;
-    font-weight: 900;
+    font-weight: 500;
     font-family: 'Merriweather', serif;
 }
 
-.whats-hot-button:hover {
+.shop-jewelry-button:hover {
     cursor: pointer;
 }
 
@@ -36,5 +36,5 @@
         width: 98%;
         height: 30vh;
         margin: 1%;
-        }
+    }
 }

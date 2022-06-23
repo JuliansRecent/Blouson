@@ -11,23 +11,25 @@ nav {
     font-size: 2rem;
     font-weight: 600;
     width: 100%;
-    padding: 2% 2% 1% 2%;
+    padding: 2% 2%;
 }
 
 .bottom-nav {
     display: flex;
     flex-direction: row;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 700;
     width: 100vw;
     padding: 0% 2%;
-    color: rgb(74, 74, 74);
+    color: rgb(77, 76, 76);
+    font-family: 'Merriweather', serif;
 }
 
 .logo {
     text-decoration: none;
     color: black;
     font-size: 3rem;
+    font-family:'Elsie', cursive, sans-serif, serif;
 }
 
 .top-nav-items {
