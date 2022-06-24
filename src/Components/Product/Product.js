@@ -16,7 +16,7 @@ function Product({product, cart, setCart}) {
                 <div className="product-description">
                     <span className='price'>{`$${product.price}`}</span>
                     <div className='icon-container'>
-                        <button className='heart-icon'><img src={heartIcon} alt="" /></button>
+                        {/* <button className='heart-icon'><img src={heartIcon} alt="" /></button> */}
                         <button className='cart-icon' onClick={addToCart}><img src={cartIcon} alt="" /></button>
                     </div>
                 </div>

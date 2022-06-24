@@ -22,9 +22,9 @@ function Cart({cart, setCart}) {
 									<div className='product-description'>
 										<span className='price'>{`$${product.price}`}</span>
 										<div className='icon-container'>
-											<button className='heart-icon'>
+											{/* <button className='heart-icon'>
 												<img src={heartIcon} alt='' />
-											</button>
+											</button> */}
 											<button
 												className='cart-icon'
 												onClick={() => removeFromCart(product)}>

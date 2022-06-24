@@ -15,11 +15,11 @@ function NavBar(props) {
 				</h1>
 				<ul className='top-nav-items'>
 					<li>
-						<Link to='/liked'>
+						{/* <Link to='/liked'>
 							<div className='nav-item heart'>
 								<img src={heartImage} />
 							</div>
-						</Link>
+						</Link> */}
 					</li>
 					<li>
 						<Link to='/shoppingbag'>
