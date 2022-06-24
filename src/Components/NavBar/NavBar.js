@@ -28,23 +28,21 @@ function NavBar(props) {
 							</div>
 						</Link>
 					</li>
-					<li>
-						<div className='nav-item'>
-							<img src={hamburgerIcon} />
-						</div>
-					</li>
 				</ul>
 			</div>
 			<div className='bottom-nav'>
 				<ul className='bottom-nav-items'>
-					<Link to='/shopwomens'>
-						<li className='categories'>Women</li>
-					</Link>
 					<Link to='/shopmens'>
 						<li className='categories'>Men</li>
 					</Link>
+					<Link to='/shopwomens'>
+						<li className='categories'>Women</li>
+					</Link>
 					<Link to='/shopjewelry'>
 						<li className='categories'>Jewelry</li>
+					</Link>
+					<Link to='/shopelectronics'>
+						<li className='categories'>Electronics</li>
 					</Link>
 				</ul>
 			</div>

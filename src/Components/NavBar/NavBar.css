@@ -11,30 +11,34 @@ nav {
     font-size: 2rem;
     font-weight: 600;
     width: 100%;
-    padding: 2% 2% 1% 2%;
+    padding: 2% 2%;
 }
 
 .bottom-nav {
     display: flex;
     flex-direction: row;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 700;
     width: 100vw;
     padding: 0% 2%;
-    color: rgb(74, 74, 74);
+    color: rgb(77, 76, 76);
+    font-family: 'Merriweather', serif;
+    margin-bottom: 1.3em;
 }
 
 .logo {
     text-decoration: none;
     color: black;
     font-size: 3rem;
+    font-family:'Elsie', cursive, sans-serif, serif;
 }
 
 .top-nav-items {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 5.5em;
+    justify-content: flex-end;
+    gap: 0.5em;
+    width: 13%;
 }
 
 .bottom-nav-items {
@@ -85,5 +89,24 @@ img {
 
     .top-nav {
     font-size: 1.4em;
+    }
+
+    .top-nav-items {
+        width: 36%;
+    }
+
+    .shopping-bag {
+        width: 1em;
+        height: 1em;
+    }
+
+    .heart {
+        width: 1em;
+        height: 1em;
+    }
+
+    .bottom-nav {
+        font-size: 0.6em;
+        margin-bottom: 0.3em;
     }
 }

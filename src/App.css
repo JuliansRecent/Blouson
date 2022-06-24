@@ -1,14 +1,39 @@
 body {
-     min-height: 100%;
-     overflow-x: hidden;
-     overflow-y: scroll;
+   min-height: 100%;
+   overflow-x: hidden;
+   overflow-y: scroll;
+   font-family: 'Vollkorn', serif;
+   font-size: 2em;
  }
 
-
+ .nothing-here {
+   margin-top: 2em;
+   font-size: 1.5em;
+   color: rgb(102, 102, 102);
+ }
 
  @media (min-width: 1000px) {
-     body {
-         margin-right: 200px;
-         margin-left: 200px;
-     }
+
+    body {
+    display: block;
+    margin-right: 200px;
+    margin-left: 200px;
+    }
+
+   .title {
+      font-size: 1.5em;
+   }
+ }
+
+ @media (max-width: 600px) {
+
+   .title {
+      font-size: 2em;
+   }
+
+   .product-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
  }

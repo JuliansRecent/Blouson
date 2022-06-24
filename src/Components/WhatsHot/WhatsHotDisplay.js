@@ -22,25 +22,28 @@ import Product from '../Product/Product';
 
 	return products;
 }
-function WhatsHotDisplay() {
+function WhatsHotDisplay({cart, setCart}) {
         const products = useFakeStoreAPI();
     return (
-        <div className='main-container'>
-            <h2 className='title'>What's Hot</h2>
-            <ul className='product-container'>
-                {products.length > 0 ? (products.map((product, index) => (
-                    <Product 
-                    key={index}
-                    index={index}
-                    product={product}
-                    />
-                ))
-                ) : (
-                    <div>Nothing here yet!</div>
-                )}
-            </ul>
-        </div>
-    );
+			<div className='main-container'>
+				<h2 className='title'>What's Hot</h2>
+				<ul className='product-container'>
+					{products.length > 0 ? (
+						products.map((product, index) => (
+							<Product
+								key={index}
+								index={index}
+								product={product}
+								cart={cart}
+								setCart={setCart}
+							/>
+						))
+					) : (
+						<div className='nothing-here'>Nothing here yet!</div>
+					)}
+				</ul>
+			</div>
+		);
 }
 
 export default WhatsHotDisplay;

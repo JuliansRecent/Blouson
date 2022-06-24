@@ -9,7 +9,7 @@ const useFakeStoreAPI = (category) => {
 		fetch(url)
 			.then((res) => res.json())
 			.then((json) => setProducts(json))
-			.catch((error) => console.log(`There was an error! ${error}`));
+			.catch((error) => (<div>` Oops! There was an error! ${error}`</div>));
 	};
 
 	useEffect(() => {

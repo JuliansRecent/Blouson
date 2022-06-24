@@ -1,44 +1,47 @@
-.whats-hot {
+.electronics-section {
     width: 98%;
-    height: 50vh;
-    background-image: url('../Assets/beach-background.jpg');
+    height: 35vh;
+    background-image: url('../Assets/electronics-cover-image.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 1%;
+    margin-bottom: 6.7%;
 }
 
-.whats-hot-inner-box {
+.electronics-inner-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.whats-hot-button {
+.shop-electronics-button {
     background-color: black;
-    font-size: 1em;
+    font-size: 0.8em;
     color: white;
     padding: 1em;
+    font-weight: 500;
     font-family: 'Merriweather', serif;
     border-radius: 7%;
 }
 
-.whats-hot-button:hover {
+.shop-electronics-button:hover {
     cursor: pointer;
 }
 
 
 
 @media (max-width: 500px) {
-    .whats-hot {
+    .electronics-section {
         width: 98%;
-        height: 30vh;
+        height: 35vh;
         margin: 1%;
-        }
-
-        .whats-hot-button {
-            font-size: 1.2em;
-        }
+    }
+    
+    .shop-electronics-button {
+        font-size: 1.2em;
+    }
+    
 }

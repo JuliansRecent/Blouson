@@ -1,10 +1,13 @@
 import './Product.css'
 import heartIcon from '../Assets/heart.png'
 import cartIcon from '../Assets/shopping-bag.png'
+import { useState } from 'react';
 
-function Product({product}) {
 
-
+function Product({product, cart, setCart}) {
+    const addToCart = () => {
+        setCart([...cart, product])
+    }
     return (
         <li className="product-card">
             <img src={`${product.image}`} alt="" />
@@ -13,8 +16,8 @@ function Product({product}) {
                 <div className="product-description">
                     <span className='price'>{`$${product.price}`}</span>
                     <div className='icon-container'>
-                        <span className='heart-icon'><img src={heartIcon} alt="" /></span>
-                        <span className='cart-icon'><img src={cartIcon} alt="" /></span>
+                        <button className='heart-icon'><img src={heartIcon} alt="" /></button>
+                        <button className='cart-icon' onClick={addToCart}><img src={cartIcon} alt="" /></button>
                     </div>
                 </div>
             </div>

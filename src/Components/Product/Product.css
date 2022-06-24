@@ -6,6 +6,14 @@
     background-color: rgb(247, 245, 243);
     padding: 1em;
     justify-content: space-between;
+    font-family: 'Vollkorn', serif;
+    font-size: 1.2rem;
+}
+
+button {
+   background-color: none;
+   border: none;
+   cursor: pointer;
 }
 
 .product-title {
@@ -46,17 +54,26 @@ img {
 
 @media (max-width: 735px) {
     * {
-        font-size: 0.9rem;
         text-align: center;
+    }
+
+    .product-title {
+        font-size: 0.8em;
     }
 
     .product-description {
         flex-direction: column;
         margin: 1em;
         gap: 1em;
+        align-items: center;
     }
 
-    .product-description {
-        align-items: center;
+    .product-card {
+        width: 55%;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
     }
 }

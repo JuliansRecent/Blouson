@@ -1,7 +1,7 @@
-import './SelectClothesByGender.css'
+import './SelectClothesByGenderDisplay.css'
 import {Link} from 'react-router-dom'
 
-function SelectClothesByGender(props) {
+function SelectClothesByGenderDisplay(props) {
     return (
 			<div className='mens-and-womens-container'>
 				<div className='mens-image-container'>
@@ -15,4 +15,4 @@ function SelectClothesByGender(props) {
 		);
 }
 
-export default SelectClothesByGender;
+export default SelectClothesByGenderDisplay;
