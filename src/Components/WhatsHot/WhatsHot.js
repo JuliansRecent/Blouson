@@ -1,5 +1,5 @@
-import './WhatsHot.css'
-import {Link} from 'react-router-dom'
+import './WhatsHot.css';
+import { Link } from 'react-router-dom';
 
 function WhatsHot(props) {
 	return (

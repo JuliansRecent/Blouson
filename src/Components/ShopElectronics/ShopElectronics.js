@@ -2,8 +2,7 @@ import { useEffect, useState, useReducer } from 'react';
 import Product from '../Product/Product';
 import useFakeStoreAPI from '../../hooks/useFakeStoreAPI';
 
-
-function ShopElectronics({cart, setCart}) {
+function ShopElectronics({ cart, setCart }) {
 	const products = useFakeStoreAPI('electronics');
 
 	return (

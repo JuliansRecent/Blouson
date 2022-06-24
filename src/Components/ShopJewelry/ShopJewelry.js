@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import Product from '../Product/Product';
 import useFakeStoreAPI from '../../hooks/useFakeStoreAPI';
 
-function ShopJewelry({cart, setCart}) {
+function ShopJewelry({ cart, setCart }) {
 	const products = useFakeStoreAPI('jewelery');
 	return (
 		<div className='main-container'>
@@ -11,7 +11,13 @@ function ShopJewelry({cart, setCart}) {
 			<ul className='product-container'>
 				{products.length > 0 ? (
 					products.map((product, index) => (
-						<Product key={index} index={index} product={product} cart={cart} setCart={setCart}/>
+						<Product
+							key={index}
+							index={index}
+							product={product}
+							cart={cart}
+							setCart={setCart}
+						/>
 					))
 				) : (
 					<div className='nothing-here'>Nothing here yet!</div>

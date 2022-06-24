@@ -3,8 +3,7 @@ import { useEffect, useState, useReducer } from 'react';
 import Product from '../Product/Product';
 import useFakeStoreAPI from '../../hooks/useFakeStoreAPI';
 
-
-function ShopMens({cart, setCart}) {
+function ShopMens({ cart, setCart }) {
 	const products = useFakeStoreAPI("men's clothing");
 
 	return (

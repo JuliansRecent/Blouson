@@ -1,7 +1,7 @@
 import './NavBar.css';
-import heartImage from '../Assets/heart.png'
-import cartImage from '../Assets/shopping-bag.png'
-import hamburgerIcon from '../Assets/Hamburger_icon.png'
+import heartImage from '../Assets/heart.png';
+import cartImage from '../Assets/shopping-bag.png';
+import hamburgerIcon from '../Assets/Hamburger_icon.png';
 import { Link } from 'react-router-dom';
 
 function NavBar(props) {

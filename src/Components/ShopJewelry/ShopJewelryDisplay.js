@@ -1,4 +1,4 @@
-import './ShopJewelryDisplay.css'
+import './ShopJewelryDisplay.css';
 import { Link } from 'react-router-dom';
 
 function ShopJewelryDisplay(props) {

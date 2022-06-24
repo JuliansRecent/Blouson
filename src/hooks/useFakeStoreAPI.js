@@ -6,7 +6,7 @@ const useFakeStoreAPI = (category) => {
 	const url = `https://fakestoreapi.com/products/category/${category}?limit=3`;
 
 	const updateProducts = () => {
-		fetch(url, { mode: 'no-cors' })
+		fetch(url)
 			.then((res) => res.json())
 			.then((json) => setProducts(json))
 			.catch((error) => <div>` Oops! There was an error! ${error}`</div>);

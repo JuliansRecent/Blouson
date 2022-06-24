@@ -1,16 +1,15 @@
 import { useEffect, useState } from 'react';
-import { Routes, Route} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import NavBar from './Components/NavBar/NavBar';
 import WhatsHotDisplay from './Components/WhatsHot/WhatsHotDisplay';
 import Dashboard from './Dashboard/Dashboard';
 import ShopWomens from './Components/ShopWomens/ShopWomens';
 import ShopMens from './Components/ShopMens/ShopMens';
-import ShopJewelry from './Components/ShopJewelry/ShopJewelry'
+import ShopJewelry from './Components/ShopJewelry/ShopJewelry';
 import Cart from './Components/Cart/Cart';
 import Footer from './Components/Footer/Footer';
 import ShopElectronics from './Components/ShopElectronics/ShopElectronics';
-
 
 function App() {
 	const [cart, setCart] = useState([]);
