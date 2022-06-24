@@ -28,11 +28,6 @@ function NavBar(props) {
 							</div>
 						</Link>
 					</li>
-					<li>
-						<div className='nav-item'>
-							<img src={hamburgerIcon} />
-						</div>
-					</li>
 				</ul>
 			</div>
 			<div className='bottom-nav'>

@@ -3,7 +3,7 @@ import Product from '../Product/Product';
 import useFakeStoreAPI from '../../hooks/useFakeStoreAPI';
 
 
-function ShopElectronics(props) {
+function ShopElectronics({cart, setCart}) {
 	const products = useFakeStoreAPI('electronics');
 
 	return (
@@ -12,10 +12,16 @@ function ShopElectronics(props) {
 			<ul className='product-container'>
 				{products.length > 0 ? (
 					products.map((product, index) => (
-						<Product key={index} index={index} product={product} />
+						<Product
+							key={index}
+							index={index}
+							product={product}
+							cart={cart}
+							setCart={setCart}
+						/>
 					))
 				) : (
-					<div>Nothing here yet!</div>
+					<div className='nothing-here'>Nothing here yet!</div>
 				)}
 			</ul>
 		</div>

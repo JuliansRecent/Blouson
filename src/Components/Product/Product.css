@@ -54,17 +54,26 @@ img {
 
 @media (max-width: 735px) {
     * {
-        font-size: 0.9rem;
         text-align: center;
+    }
+
+    .product-title {
+        font-size: 0.8em;
     }
 
     .product-description {
         flex-direction: column;
         margin: 1em;
         gap: 1em;
+        align-items: center;
     }
 
-    .product-description {
-        align-items: center;
+    .product-card {
+        width: 55%;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
     }
 }

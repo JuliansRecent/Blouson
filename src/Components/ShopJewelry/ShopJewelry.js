@@ -14,7 +14,7 @@ function ShopJewelry({cart, setCart}) {
 						<Product key={index} index={index} product={product} cart={cart} setCart={setCart}/>
 					))
 				) : (
-					<div>Nothing here yet!</div>
+					<div className='nothing-here'>Nothing here yet!</div>
 				)}
 			</ul>
 		</div>

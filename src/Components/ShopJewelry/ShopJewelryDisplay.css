@@ -18,11 +18,12 @@
 
 .shop-jewelry-button {
     background-color: black;
-    font-size: 1.5em;
+    font-size: 0.8em;
     color: white;
     padding: 1em;
     font-weight: 500;
     font-family: 'Merriweather', serif;
+    border-radius: 7%;
 }
 
 .shop-jewelry-button:hover {
@@ -32,9 +33,7 @@
 
 
 @media (max-width: 500px) {
-    .whats-hot {
-        width: 98%;
-        height: 30vh;
-        margin: 1%;
+    .shop-jewelry-button {
+        font-size: 1.2em;
     }
 }

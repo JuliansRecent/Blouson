@@ -24,12 +24,13 @@ img {
 
 .shop-mens {
     background-color: black;
-    font-size: 1.5em;
+    font-size: 0.7em;
     color: white;
     padding: 1em;
     cursor: pointer;
-    margin-top: 25%;
+    margin-top: 59%;
     font-family: 'Merriweather', serif;
+    border-radius: 7%;
 }
 
 .womens-image-container {
@@ -43,12 +44,13 @@ img {
 
 .shop-womens {
     background-color: black;
-    font-size: 1.5em;
+    font-size: .7em;
     color: white;
     padding: 1em;
     cursor: pointer;
-    margin-top: 20%;
+    margin-top: 50%;
     font-family: 'Merriweather', serif;
+    border-radius: 7%;
 }
 
 @media (max-width: 500px) {

@@ -23,6 +23,7 @@ nav {
     padding: 0% 2%;
     color: rgb(77, 76, 76);
     font-family: 'Merriweather', serif;
+    margin-bottom: 1.3em;
 }
 
 .logo {
@@ -35,8 +36,9 @@ nav {
 .top-nav-items {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 5.5em;
+    justify-content: flex-end;
+    gap: 0.5em;
+    width: 13%;
 }
 
 .bottom-nav-items {
@@ -87,5 +89,24 @@ img {
 
     .top-nav {
     font-size: 1.4em;
+    }
+
+    .top-nav-items {
+        width: 36%;
+    }
+
+    .shopping-bag {
+        width: 1em;
+        height: 1em;
+    }
+
+    .heart {
+        width: 1em;
+        height: 1em;
+    }
+
+    .bottom-nav {
+        font-size: 0.6em;
+        margin-bottom: 0.3em;
     }
 }
